@@ -1,0 +1,51 @@
+#wholeCalculator{
+    width:200px;
+    height: 275px;
+    background-color: aqua;
+    margin:auto;
+    
+}
+#display{
+    width:150px;
+    height: 40px;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    text-align:right;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-top:20px
+    
+}
+.firstFour {
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.secondFour, .thirdFour, .fourthFour, .fifthFour {
+    text-align: center;
+     padding-top: 10px;
+}
+
+#zero{
+    width:27%
+}
+
+.firstFour  :hover{
+    background-color: orangered;
+}
+
+.secondFour  :hover{
+    background-color: orangered;
+}
+
+.thirdFour  :hover{
+    background-color: orangered;
+}
+.fourthFour :hover{
+     background-color: orangered;
+}
+.fifthFour  :hover{
+    background-color:orangered
+}
