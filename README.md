@@ -1,3 +1,3 @@
 # calculator
  
-One of my first projects created using HTML & CSS.
+One of my first projects created using HTML, CSS & JavaScript.
