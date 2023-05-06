@@ -1,9 +1,9 @@
-#wholeCalculator{
+#container{
     width:200px;
     height: 275px;
-    background-color: aqua;
+    background-color: skyblue;
     margin:auto;
-    
+    border-radius: 5px;
 }
 #display{
     width:150px;
@@ -17,35 +17,29 @@
     margin-top:20px
     
 }
-.firstFour {
+.firstRow {
     text-align: center;
     padding-top: 20px;
-    
 }
 
-.secondFour, .thirdFour, .fourthFour, .fifthFour {
+.secondRow,
+.thirdRow,
+.fourthRow,
+.fifthRow {
     text-align: center;
-     padding-top: 10px;
+    padding-top: 10px;
 }
 
 #zero{
     width:27%
 }
 
-.firstFour  :hover{
-    background-color: orangered;
+.firstRow :hover,
+.secondRow :hover, 
+.thirdRow :hover, 
+.fourthRow :hover,
+.fifthRow :hover{
+    background-color: lightcoral;
 }
 
-.secondFour  :hover{
-    background-color: orangered;
-}
-
-.thirdFour  :hover{
-    background-color: orangered;
-}
-.fourthFour :hover{
-     background-color: orangered;
-}
-.fifthFour  :hover{
-    background-color:orangered
-}
+ 
